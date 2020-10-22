@@ -1,0 +1,76 @@
+.container{
+    width: auto;
+    max-width: 1500px;
+    height: 1200px;
+    background-image: url("/Assests/ITPic2.jpg");
+   
+
+}
+
+
+ .topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headlogo{
+    font-family: normal;
+    margin: center;
+}
+
+.header{
+    justify-content: center;
+    margin-top: auto;
+
+}
+
+nav {
+flex-direction: column;
+align-items: flex-start;
+text-align: right;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: black;
+}
+
+
+button {
+    background-color: #202020; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+    
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  } 
+  
+  button {background-color: #e7e7e7;
+
+}
+
+  button:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+
+
+  
