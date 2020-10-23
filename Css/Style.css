@@ -1,10 +1,104 @@
 .container{
     width: auto;
+    height: auto;
     max-width: 1500px;
     height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url("/Assests/ITPic2.jpg");
-   
+    
+  }
 
+
+  html {
+    font-size: 25px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+
+  }    
+
+
+  h1 {
+    font-size: 65px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 1px #555;
+    
+    
+  }
+
+  h3 {
+    font-size: 45px;
+    text-align: justify-left;
+    text-align-last: initial;
+    letter-spacing: 1.5px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 1px #555;
+    
+  }
+
+  h4 {
+    font-size: 30px;
+    text-align: justify-left;
+    text-align-last: unset;
+    text-align: start;
+    color: whitesmoke;
+  }
+  
+  p {
+    font-size: 16px;    
+    line-height: 2.5;
+    letter-spacing: 1.5px;
+    color:whitesmoke;
+    text-shadow: 3px 2px 1px black;
+    padding: 0rem;
+  }
+
+  p1 {
+    font-size: 16px;    
+    line-height: 1.0;
+    letter-spacing: 1px;
+    color:whitesmoke;
+    
+    
+
+  }
+
+  li {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 1px black;
+  }
+
+  li:hover {
+    background-color: #555;
+    color: whitesmoke;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 4px 8px;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+  
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #555;
 }
 
 
@@ -29,11 +123,6 @@ nav {
 flex-direction: column;
 align-items: flex-start;
 text-align: right;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: black;
 }
 
 
