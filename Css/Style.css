@@ -1,8 +1,8 @@
 .container{
     width: auto;
     height: auto;
-    max-width: 1500px;
-    height: 1200px;
+    max-width: 2000px;
+    height: 1800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,12 +21,13 @@
   h1 {
     font-size: 65px;
     text-align: center;
+    text-shadow: 3px 2px 1px #555;
   }
 
   h2 {
     font-size: 50px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     text-shadow: 3px 2px 1px #555;
     
     
@@ -48,6 +49,7 @@
     text-align-last: unset;
     text-align: start;
     color: whitesmoke;
+    text-shadow: 3px 2px 1px #555;
   }
   
   p {
@@ -55,7 +57,7 @@
     line-height: 2.5;
     letter-spacing: 1.5px;
     color:whitesmoke;
-    text-shadow: 3px 2px 1px black;
+    text-shadow: 1px 1px 1px black;
     padding: 0rem;
   }
 
@@ -65,9 +67,16 @@
     letter-spacing: 1px;
     color:whitesmoke;
     
-    
-
   }
+
+
+  img {
+    margin: 10px;
+  }
+
+
+  ul {
+    display: flex;  }
 
   li {
     font-size: 20px;
@@ -89,6 +98,20 @@
     transition-duration: 0.4s;
     cursor: pointer;
     
+  }
+  
+
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   
 
